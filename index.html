@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="index.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro" rel="stylesheet">
     <title>Technical Documentation</title>
 </head>
 <body>
@@ -111,21 +112,21 @@
                 </p>
                 <pre>
                     <code>
-                    if (true) {
-                        var x = 5;
-                    }
-                    console.log(x);  // 5
-                </code>
+        if (true) {
+            var x = 5;
+        }
+        console.log(x);  // 5
+                    </code>
                 </pre>
                
                 <p>This behavior changes, when using the let declaration introduced in ECMAScript 2015.</p>
                 <pre>
                     <code>
-                        if (true) {
-                            let y = 5;
-                        }
-                        console.log(y);  
-                        // ReferenceError: y is not defined
+        if (true) {
+            let y = 5;
+        }
+        console.log(y);  
+        // ReferenceError: y is not defined
                     </code>
                 </pre>
                 
@@ -144,14 +145,14 @@
                 <p>You cannot declare a constant with the same name as a function or variable in the same scope. For example:</p>
                 <pre>
                     <code>
-                        // THIS WILL CAUSE AN ERROR
-                        function f() {};
-                            const f = 5;
-                            // THIS WILL CAUSE AN ERROR ALSO
-                            function f() {
-                            const g = 5;
-                            var g;
-                            //statements
+        // THIS WILL CAUSE AN ERROR
+        function f() {};
+            const f = 5;
+            // THIS WILL CAUSE AN ERROR ALSO
+            function f() {
+            const g = 5;
+            var g;
+            //statements
                         }
                     </code>
                 </pre>
@@ -182,11 +183,11 @@
                 </p> 
                 <pre>
                     <code>
-                        if (condition) {
-                        statement_1;
-                        } else {
-                            statement_2;
-                        }
+        if (condition) {
+        statement_1;
+        } else {
+            statement_2;
+        }
                 </code> 
                 </pre>   
                        
@@ -195,15 +196,15 @@
                 </p>
                 <pre>
                     <code>
-                        if (condition_1) {
-                            statement_1;
-                            } else if (condition_2) {
-                            statement_2;
-                            } else if (condition_n) {
-                            statement_n;
-                            } else {
-                            statement_last;
-                        } 
+        if (condition_1) {
+            statement_1;
+            } else if (condition_2) {
+            statement_2;
+            } else if (condition_n) {
+            statement_n;
+            } else {
+            statement_last;
+        } 
                     </code>
                 </pre>
                 
@@ -211,13 +212,13 @@
                 </p>
                 <pre>
                     <code>
-                        if (condition) {
-                            statement_1_runs_if_condition_is_true;
-                            statement_2_runs_if_condition_is_true;
-                            } else {
-                            statement_3_runs_if_condition_is_false;
-                            statement_4_runs_if_condition_is_false;
-                        }
+        if (condition) {
+            statement_1_runs_if_condition_is_true;
+            statement_2_runs_if_condition_is_true;
+            } else {
+            statement_3_runs_if_condition_is_false;
+            statement_4_runs_if_condition_is_false;
+        }
                     </code>
                 </pre>
                 
@@ -225,9 +226,9 @@
                 </p>
                 <pre>
                     <code>
-                        if (x = y) {
-                            /* statements here */
-                        }
+        if (x = y) {
+            /* statements here */
+        }
                     </code>
                 </pre>
                 
@@ -235,9 +236,9 @@
                 </p>
                <pre>
                 <code>
-                    if ((x = y)) {
-                        /* statements here */
-                    }
+        if ((x = y)) {
+            /* statements here */
+        }
                 </code>
                </pre>
             </section>
@@ -247,8 +248,8 @@
                  </p>
                  <pre>
                     <code>
-                        while (condition)
-                        statement
+        while (condition)
+        statement
                     </code>
                  </pre>            
                 <p>If the condition becomes false, statement within the loop stops executing and control passes to the statement following the loop.</p>
@@ -259,12 +260,12 @@
                 </p>
                 <pre>
                     <code>
-                        var n = 0;
-                            var x = 0;
-                            while (n < 3) {
-                            n++;
-                            x += n;
-                        }
+        var n = 0;
+            var x = 0;
+            while (n < 3) {
+            n++;
+            x += n;
+        }
                 </code>
                 </pre>
                
@@ -288,9 +289,9 @@
                 </p>
                 <pre>
                     <code>
-                        function square(number) {
-                            return number * number;
-                        }
+        function square(number) {
+            return number * number;
+        }
                     </code>
                 </pre>
                 
